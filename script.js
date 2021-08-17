@@ -5,7 +5,7 @@ const botao1 = document.getElementById("botao")
 const resultado1 = document.getElementById("resultado")
 
 function IMC(){
-     resultado1.value = parseFloat(peso1.value) / (parseFloat(altura1.value) * parseFloat(altura1.value))
+     resultado1.textContent = nome.value + " seu imc é: " + (peso1.value / (altura1.value * altura1.value)).toFixed(2)
 }
 
 
